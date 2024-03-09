@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Muere Forastero</title>
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="screen">
+  <div class="cloud cloud--2"></div>
+  <div class="cloud cloud--1"></div> 
+  <div class="js-opening opening-screen">
+    <img src="https://gilleskurt.com/thefearsomethree/ostitle.png" alt="" class="opening-screen__title">
+    <img src="https://gilleskurt.com/thefearsomethree/osfigures.png" alt="" class="opening-screen__figures">
+    <button class="js-start opening-screen__start-button"></button>
+    <div class="js-message message-box message-box--full is-hidden">
+      <p>Ser Sheriff no es un trabajo para cualquiera..Para ser guardian de este pueblo, tendras que pasar a los forasteros que habitan en ella..Derrota a German "El loco", luego a Alicia "La Presep", y por ultimo al temible Martin "Kosaquito"..No desepciones. <button type="button" class="js-continue continue-button">Continuar...</button></p>
+    </div>
+  </div>
+  <div class="js-play is-hidden">
+    <div class="js-sheriff sheriff"></div>
+    <div class="js-opponent opponent opponent--1"></div>
+    <div class="message-box message-box--half">
+      <button type="button" class="js-draw shoot-button is-hidden">¡Fuego!</button>
+      <span class="js-result"></span>
+      <span class="js-message"></span>
+      <button type="button" class="js-result-continue continue-button is-hidden">Continua...</button>
+      <button type="button" class="js-duel continue-button is-hidden">Continua...</button>
+    </div>
+  </div>
+  <div class="js-outro is-hidden">
+    <div class="message-box message-box--full">
+      <span>Rayos y sentellas!! ERES REALMENTE UN GENIO, Seras nombrado el Ojo de la Serpiente. ¡Serás un sheriff devorador de infiernos!</span>
+      <span class="Tu tiempo fue de "></span>
+      <button type="button" class="js-save-and-quit continue-button">Continuara....</button>
+    </div>
+  </div>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
